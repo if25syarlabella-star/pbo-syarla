@@ -2,7 +2,7 @@
 
 namespace Pbo\Marketplace;
 
-class Produk {
+trait Produk {
     //Property
     private string $kode;
     private string $nama;
@@ -42,7 +42,7 @@ class Produk {
             exit();
         }
         $this->stok= $stok;
-        return $this;
+        return $this;                                                 
     }
     
     //getter
